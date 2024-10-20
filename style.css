@@ -1,0 +1,364 @@
+/*=============custom font============*/
+
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Patrick+Hand&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Caesar Dressing", system-ui;
+}
+
+a,
+p,
+span,
+button {
+  font-family: "Patrick Hand", cursive;
+}
+
+/* header section */
+.header {
+  background-color: #ffbb02;
+}
+
+.brand {
+  width: 281px;
+  height: 73px;
+}
+
+.nav-link {
+  font-size: 32px;
+  font-weight: 400;
+  color: #000 !important;
+  text-transform: uppercase;
+}
+li.nav-item {
+  padding: 0 7px;
+}
+.scl_img {
+  width: 58px;
+  height: 62px;
+}
+/* hero section */
+.img_box img {
+  width: 573px;
+  height: 767px;
+}
+
+h2.ttl {
+  font-size: 113px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.left_cnt p {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.left_cnt h4 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.buy_btn {
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 7px solid #000;
+  border-left: 2px solid #000;
+  padding: 10px 20px;
+  background-color: #0b7bc5;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 11px;
+  width: 237px;
+  display: inline-block;
+  height: 64px;
+  font-size: 27px;
+  text-align: center;
+  line-height: 36px;
+  text-decoration: none;
+  margin-right: 16px;
+  text-transform: uppercase;
+}
+nav.navbar.navbar-expand-lg {
+  padding: 30px 0;
+}
+
+.wrapper {
+  max-width: 1321px;
+  margin: 0 auto;
+}
+.left_cnt {
+  margin-top: 66px;
+}
+
+section.hero {
+  padding: 50px 0 0;
+}
+
+input.ca_txt {
+  font-size: 32px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-family: "Gochi Hand", cursive;
+}
+.ca_input {
+  width: 78%;
+  height: 65px;
+  background: #fff6b5;
+  height: 65px;
+  border-radius: 10px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 7px solid #000;
+  border-left: 2px solid #000;
+  margin: 15px 0;
+  position: relative;
+}
+button.copy_btn {
+  font-size: 30px;
+  background: #0b7bc5;
+  color: #fff;
+  width: 118px;
+  height: 50px;
+  line-height: 29px;
+  text-align: center;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 7px solid #000;
+  border-left: 2px solid #000;
+  border-radius: 10px;
+  position: absolute;
+  right: 6px;
+  top: -7px;
+  font-family: "Gochi Hand", cursive;
+  margin: 11px 0;
+}
+.butn {
+  background-color: #fff6b5;
+  color: #000;
+}
+
+/************marqee text***********/
+.mar_wrapper {
+  background-color: #0b7bc5;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.marq_txt {
+  color: #fff !important;
+  font-size: 46px;
+}
+.marqee_inside {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.mar_wid {
+  width: 191px;
+  padding: 0 7px;
+}
+.Marquee {
+  overflow: hidden;
+  /* cursor: url("./images/hs1.png"), pointer !important; */
+}
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 250px;
+  overflow-x: hidden;
+  /* cursor: url("./images/hs1.png"), pointer !important; */
+
+  /* direction: ltr; */
+}
+.Marquee-content {
+  display: flex;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 8s linear infinite;
+  /* cursor: url("./images/hs1.png"), pointer !important; */
+}
+.Marquee-content:hover {
+  animation-play-state: paused;
+  /* cursor: url("./images/hs1.png"), pointer !important; */
+}
+
+.Marquee-tag:hover {
+  /* background: rgba(255, 255, 255, 0.5); */
+  /* cursor: pointer; */
+  cursor: url("./images/hs1.png"), pointer !important;
+}
+.Marquee-tag {
+  /* width: 200px; */
+  margin: 0 0.5em;
+  padding: 1.5rem;
+  /* background: rgba(255, 255, 255, 0.1); */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  cursor: url("./images/hs1.png"), pointer !important;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.left {
+  left: 0px !important;
+}
+.bc {
+  border: 1px solid white;
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .sooper {
+    right: -80px !important;
+    top: -80px !important;
+  }
+}
+@media (max-width: 768px) {
+  .gr {
+    background: #fff !important;
+  }
+  .tb {
+    color: black !important;
+  }
+  .bc {
+    border: 1px solid #000000;
+  }
+}
+
+/* about section */
+.abt_sec {
+  padding: 90px 0;
+  background-color: #fff4d8;
+}
+.img img {
+  width: 500px;
+}
+
+.abt_wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ab_ttl {
+  font-size: 100px;
+}
+.seperator {
+  width: 269px;
+  height: 5px;
+  background-color: #000;
+}
+
+.para {
+  font-size: 26px;
+  line-height: 35px;
+  padding-top: 38px;
+  padding-bottom: 7px;
+}
+
+/* pin post section */
+.pin_wrapper {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px;
+  border-radius: 10px;
+}
+
+/* how to buy section */
+
+.htb_sec {
+  background-color: #fff6b5;
+  padding: 90px 0;
+}
+.htb_ttl {
+  text-align: center;
+}
+
+.seperator2 {
+  width: 269px;
+  height: 5px;
+  background-color: #000;
+  text-align: center;
+  margin: 0 auto;
+}
+.htb_box {
+  border-radius: 15px;
+  border: 2px solid #000;
+  width: 620px;
+}
+.head_sep {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.head_sep {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 79px;
+}
+.htb_box {
+  border-radius: 15px;
+  border: 2px solid #000;
+  width: 620px;
+}
+h3.number {
+  padding: 0 24px;
+  border-right: 2px solid #000;
+  font-size: 42px;
+  margin: 0;
+  color: #0b7bc5;
+}
+
+.head_sep {
+  border-bottom: 2px solid #000;
+  padding: 0 12px;
+}
+.head_sep {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+.htb_txt {
+  font-size: 40px;
+}
+
+.box-body .para {
+  padding-top: 25px;
+}
+
+.box-body {
+  padding: 0 15px 13px 22px;
+}
+
+.htb_box {
+  border-radius: 15px;
+  border: 2px solid #000;
+  width: 620px;
+  margin-bottom: 67px;
+}
+.space {
+  padding-top: 90px;
+}
