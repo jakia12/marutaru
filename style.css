@@ -661,3 +661,15 @@ span.tkn_ttl {
   transform: rotate(45deg);
   display: none;
 } */
+
+
+@media screen and (max-width:420px) {
+  h2.ttl {
+    font-size: 58px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+  
+}
+
+
