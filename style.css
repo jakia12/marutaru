@@ -696,6 +696,14 @@ span.tkn_ttl {
   font-size: 63px;
   margin: 0;
 }
+.buy_btn {
+  width: fit-content;
+  font-size: 20px;
+}
+.htb_txt {
+  font-size: 29px;
+  margin-top: 7px;
+}
   
 }
 
