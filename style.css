@@ -364,7 +364,7 @@ h3.number {
 .htb_box {
   border-radius: 15px;
   border: 2px solid #000;
-  
+  height:340px;
   margin-bottom: 67px;
   margin-left: 15px;
   margin-right: 15px;
@@ -382,6 +382,7 @@ h3.number {
 /* tokenomics section */
 .ca_input.tkn_input {
   margin: 49px auto;
+  position:relative;
   width: 42%;
   background: #fff6b5;
   /* padding: 40px; */
@@ -563,6 +564,7 @@ span.tkn_ttl {
 
 .ca_input.tkn_input {
   margin: 49px auto;
+  position: relative;
   width: 97%;
   background: #fff6b5;
   /* padding: 40px; */
@@ -592,6 +594,7 @@ span.tkn_ttl {
     margin-bottom: 16px;
   }
   .ca_input {
+    position: relative;
     width: 98%;
   }
   .wrapper {
@@ -634,3 +637,27 @@ span.tkn_ttl {
     display: none;
   }
 }
+/* copy button desing */
+.copy_btn.copied {
+  background-color: #28a745;
+}
+
+
+.copy_btn.copied {
+  background-color: #28a745;
+}
+
+.copy_btn.failed {
+  background-color: #dc3545;
+}
+/* .copy_btn.copied:after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  width: 10px;
+  height: 10px;
+  background: #5c81dc;
+  transform: rotate(45deg);
+  display: none;
+} */

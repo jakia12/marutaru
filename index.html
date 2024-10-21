@@ -121,9 +121,14 @@
                 </p>
 
                 <h4>CONTRACT ADDRESS</h4>
-                <div class="ca_input">
-                  <input type="text" value="xxxxxxxxxxxxx" class="ca_txt" />
-                  <button class="copy_btn">Copy</button>
+                <div class="ca_input copy-text">
+                  <input
+                    type="text"
+                    value="xxxxxxxxxxxxx"
+                    class="ca_txt text"
+                    id="copyInput"
+                  />
+                  <button class="copy_btn" id="copyButton">Copy</button>
                 </div>
 
                 <!-- button grp -->
@@ -378,12 +383,13 @@
               <h2 class="ab_ttl">About</h2>
               <div class="seperator"></div>
               <p class="para">
-                Lorem ipsum dolor sit amet consectetur. Volutpat dictum laoreet
-                eget lacus. Et duis ut mauris congue lobortis blandit arcu
-                morbi. Mi suspendisse et tortor platea eros dictum sem auctor.
-                Dictum massa lorem faucibus morbi pulvinar nisl adipiscing est.
-                Curabitur sit donec duis dolor feugiat. Tortor convallis semper
-                donec in curabitur eu dapibus id lorem.
+                Marutaro, the beloved Shiba Inu from Japan, is a symbol of 忠誠
+                (chūsei - loyalty) and 温かさ (atatakasa - warmth). With his
+                serene gaze and charming しぐさ (shigusa - gestures), he reminds
+                us of the beauty in simplicity, like a peaceful stroll under the
+                桜 (sakura - cherry blossoms). Born in the land of 神社 (jinja -
+                shrines) and 祭り (matsuri - festivals), Marutaro brings
+                happiness and calm to all who follow his journey.
               </p>
               <div style="padding: 20px 0">
                 <a
@@ -443,15 +449,15 @@
               <div class="htb_box">
                 <div class="head_sep">
                   <h3 class="number">01</h3>
-                  <h3 class="htb_txt">create wallet</h3>
+                  <h3 class="htb_txt">Create a wallet</h3>
                 </div>
                 <div class="box-body">
                   <p class="para">
-                    To start using a cryptocurrency wallet, download phantom
-                    wallet or your preferred wallet app for free from the App
-                    Store or Google Play Store. For desktop users, you can
-                    easily install phantom wallet by downloading the Google
-                    Chrome extension from the official phantom wallet website
+                    First, create a crypto wallet like MetaMask—anata no
+                    takaramono bako (あなたの宝物箱, your treasure box). This is
+                    where your $MARUTARO tokens and ETH will be kept safe. Set
+                    up your wallet, back up your seed phrase, and you're ready
+                    to begin.
                   </p>
                 </div>
               </div>
@@ -459,16 +465,16 @@
             <div class="col-md-6">
               <div class="htb_box">
                 <div class="head_sep">
-                  <h3 class="number">01</h3>
-                  <h3 class="htb_txt">create wallet</h3>
+                  <h3 class="number">02</h3>
+                  <h3 class="htb_txt">Get Some ETH</h3>
                 </div>
                 <div class="box-body">
                   <p class="para">
-                    To start using a cryptocurrency wallet, download phantom
-                    wallet or your preferred wallet app for free from the App
-                    Store or Google Play Store. For desktop users, you can
-                    easily install phantom wallet by downloading the Google
-                    Chrome extension from the official phantom wallet website
+                    To buy $MARUTARO, you’ll need some ETH—your maindo tsūru
+                    (マインドツール, main tool). Purchase ETH on exchanges like
+                    Coinbase or Binance, then transfer it to your wallet. Ensure
+                    you have enough for both the tokens and gas fees. You’re now
+                    prepped for the adventure ahead!
                   </p>
                 </div>
               </div>
@@ -481,16 +487,16 @@
             <div class="col-md-6">
               <div class="htb_box">
                 <div class="head_sep">
-                  <h3 class="number">01</h3>
-                  <h3 class="htb_txt">create wallet</h3>
+                  <h3 class="number">03</h3>
+                  <h3 class="htb_txt">Go to Uniswap</h3>
                 </div>
                 <div class="box-body">
                   <p class="para">
-                    To start using a cryptocurrency wallet, download phantom
-                    wallet or your preferred wallet app for free from the App
-                    Store or Google Play Store. For desktop users, you can
-                    easily install phantom wallet by downloading the Google
-                    Chrome extension from the official phantom wallet website
+                    Next, head to Uniswap, a jiyū na shijō (自由な市場, free
+                    market) where you’ll swap ETH for $MARUTARO. Connect your
+                    wallet, search for the token using its contract address, and
+                    double-check everything—just like Marutaro’s curiosity
+                    ensures he’s always exploring safely!
                   </p>
                 </div>
               </div>
@@ -498,16 +504,16 @@
             <div class="col-md-6">
               <div class="htb_box">
                 <div class="head_sep">
-                  <h3 class="number">01</h3>
-                  <h3 class="htb_txt">create wallet</h3>
+                  <h3 class="number">04</h3>
+                  <h3 class="htb_txt">Swap ETH</h3>
                 </div>
                 <div class="box-body">
                   <p class="para">
-                    To start using a cryptocurrency wallet, download phantom
-                    wallet or your preferred wallet app for free from the App
-                    Store or Google Play Store. For desktop users, you can
-                    easily install phantom wallet by downloading the Google
-                    Chrome extension from the official phantom wallet website
+                    Finally, it’s time for the kōfuku no toki (幸福の時, moment
+                    of happiness)! Enter how much ETH you want to trade for
+                    $MARUTARO, confirm the details, and hit "Swap." Soon, your
+                    $MARUTARO tokens will be in your
+                    wallet—welcome to the family!
                   </p>
                 </div>
               </div>
@@ -523,11 +529,25 @@
         <div class="wrapper">
           <h2 class="ab_ttl htb_ttl">TOKENOMICS</h2>
           <div class="seperator2"></div>
-          <div class="ca_input tkn_input">
-            <input type="text" value="xxxxxxxxxxxxx" class="ca_txt" />
-            <button class="copy_btn">Copy</button>
-          </div>
 
+          <!-- <div class="ca_input tkn_input copy-text">
+            <input
+              type="text"
+              value="xxxxxxxxxxxxx"
+              class="ca_txt text"
+              id="copyInput"
+            />
+            <button class="copy_btn" id="copyButton">Copy</button>
+          </div> -->
+          <div class="ca_input copy-text tkn_input">
+            <input
+              type="text"
+              value="xxxxxxxxxxxxx"
+              class="ca_txt text"
+              id="copyInput2"
+            />
+            <button class="copy_btn" id="copyButton2">Copy</button>
+          </div>
           <div class="row">
             <div class="col-md-6 text-center">
               <div class="tkn_box">
@@ -863,9 +883,9 @@
               <div class="cnt_wrap">
                 <h2>JOIN OUR COMMUNITY</h2>
                 <p class="para" style="padding-top: 20px; padding-bottom: 14px">
-                  Lorem ipsum dolor sit amet consectetur. Volutpat dictum
-                  laoreet eget lacus. Et duis ut mauris congue lobortis blandit
-                  arcu morbi.
+                  Minna san, issho ni! (みんなさん、一緒に, Everyone, join us!)
+                  Become part of the Marutaro community, where every follower
+                  shares in the laughter and love this special Shiba Inu brings.
                 </p>
                 <!-- button grp -->
                 <div class="btn_wrap">
@@ -901,11 +921,102 @@
     </footer>
 
     <!-- *bootstrap js link -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      document
+        .getElementById("copyButton")
+        .addEventListener("click", function () {
+          // Get the input element
+          const copyText = document.getElementById("copyInput");
+          const copyBtn = document.getElementById("copyButton");
+
+          // Try to copy the text from the input field
+          try {
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+
+            // Attempt to copy the selected text
+            const successful = document.execCommand("copy");
+
+            if (successful) {
+              // Text successfully copied
+              copyBtn.textContent = "Copied";
+              copyBtn.classList.add("copied");
+              copyBtn.classList.remove("failed");
+            } else {
+              // Copy command failed
+              throw new Error("Unable to copy text");
+            }
+          } catch (error) {
+            // Handle any errors
+            console.error("Error copying text:", error);
+            copyBtn.textContent = "Failed to Copy";
+            copyBtn.classList.add("failed");
+            copyBtn.classList.remove("copied");
+          }
+
+          // Reset the button text back to "Copy" after 2 seconds
+          setTimeout(function () {
+            copyBtn.textContent = "Copy";
+            copyBtn.classList.remove("copied", "failed");
+          }, 500);
+        });
+
+      // second copy button
+      document
+        .getElementById("copyButton2")
+        .addEventListener("click", function () {
+          // Get the input element
+          const copyText = document.getElementById("copyInput2");
+          const copyBtn = document.getElementById("copyButton2");
+
+          // Try to copy the text from the input field
+          try {
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+
+            // Attempt to copy the selected text
+            const successful = document.execCommand("copy");
+
+            if (successful) {
+              // Text successfully copied
+              copyBtn.textContent = "Copied";
+              copyBtn.classList.add("copied");
+              copyBtn.classList.remove("failed");
+            } else {
+              // Copy command failed
+              throw new Error("Unable to copy text");
+            }
+          } catch (error) {
+            // Handle any errors
+            console.error("Error copying text:", error);
+            copyBtn.textContent = "Failed to Copy";
+            copyBtn.classList.add("failed");
+            copyBtn.classList.remove("copied");
+          }
+
+          // Reset the button text back to "Copy" after 2 seconds
+          setTimeout(function () {
+            copyBtn.textContent = "Copy";
+            copyBtn.classList.remove("copied", "failed");
+          }, 500);
+        });
+    </script>
   </body>
 </html>
