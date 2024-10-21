@@ -606,6 +606,15 @@ span.tkn_ttl {
     width: 100%;
     margin-bottom: 23px;
   }
+  .tkn_txt {
+    
+    width: 311px;
+    height: 81px;
+    border-radius: 10px;
+    margin: 0 auto;
+    /* font-size: 61px; */
+    line-height: 51px;
+}
   .abt_btn {
     display: flex;
     justify-content: center;
@@ -672,6 +681,20 @@ span.tkn_ttl {
 .ca_input {
   position: relative;
   width: 83%;
+}
+.tkn_txt {
+    
+  width: 311px;
+  height: 81px;
+  border-radius: 10px;
+  margin: 0 auto;
+  /* font-size: 61px; */
+  line-height: 51px;
+}
+
+.cnt_wrap h2 {
+  font-size: 63px;
+  margin: 0;
 }
   
 }
