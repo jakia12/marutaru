@@ -11,6 +11,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -18,38 +19,75 @@
     <header class="header">
       <!-- nav section -->
       <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <!-- Logo on the left -->
             <a class="navbar-brand" href="#">
               <img src="/images/logo.svg" alt="Logo" class="brand" />
             </a>
 
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Toggler for mobile view -->
+
             <!-- Navbar items centered -->
-            <div class="collapse navbar-collapse justify-content-center">
-              <ul class="navbar-nav mb-2 mb-lg-0">
+
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav" style="align-items: center">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#home"
-                    >Home</a
+                  <a class="nav-link active" aria-current="page" href="#home">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="#about"
+                    class="nav-link active"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
+                    About
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" href="#roadmap"> Roadmap </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#tokenomics">Tokenomics</a>
+                  <a class="nav-link" href="#tokenomics"> Tokenomics </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#roadmap">Roadmap</a>
+                  <a class="nav-link" href="#htb"> How To Buy </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#htb">How To Buy</a>
+                <li class="hid">
+                  <div class="d-flex social">
+                    <a href="tglink" class="me-3">
+                      <img
+                        src="/images/tg.png"
+                        alt="telegram"
+                        class="scl_img"
+                      />
+                    </a>
+                    <a href="twitterlink" class="me-3">
+                      <img src="images/tt.png" alt="Twitter" class="scl_img" />
+                    </a>
+                  </div>
                 </li>
               </ul>
             </div>
-
             <!-- Social icons on the right -->
-            <div class="d-flex">
+            <div class="social">
               <a href="tglink" class="me-3">
                 <img src="/images/tg.png" alt="telegram" class="scl_img" />
               </a>
@@ -369,7 +407,7 @@
       </section>
 
       <!-- pin post section -->
-      <section style="padding: 90px 0; background-color: #fff4d8">
+      <section class="pin_sec">
         <div class="pin_wrapper">
           <div>
             <img src="/images/pin.png" style="width: 100%" alt="" />
@@ -435,6 +473,11 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="star">
+            <img src="/images/star.png" alt="" />
+          </div>
+          <div class="row">
             <div class="col-md-6">
               <div class="htb_box">
                 <div class="head_sep">
@@ -472,10 +515,390 @@
           </div>
         </div>
       </section>
+      <!-- Tokenomics section -->
+      <section class="tkn_sec" style="background-color: #fff4d8">
+        <div class="wrapper">
+          <h2 class="ab_ttl htb_ttl">TOKENOMICS</h2>
+          <div class="seperator2"></div>
+          <div class="ca_input tkn_input">
+            <input type="text" value="xxxxxxxxxxxxx" class="ca_txt" />
+            <button class="copy_btn">Copy</button>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <div class="tkn_box">
+                <div class="ttl_wrap"><h3>TOTAL SUPPLY</h3></div>
+                <div class="tkn_body">
+                  <div class="tkn_wrap">
+                    <span class="tkn_ttl">Total Supply</span>
+                    <span class="tkn_txt">1 BILLION</span>
+                  </div>
+                  <div class="tkn_wrap">
+                    <span class="tkn_ttl">Renounced</span>
+                    <span class="tkn_txt">OWNERSHIP</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="tkn_box">
+                <div class="ttl_wrap"><h3>Tax</h3></div>
+                <div class="body_cnt">
+                  <div class="tkn_body">
+                    <div class="tkn_wrap">
+                      <span class="tkn_txt">Buy tax : 0%</span>
+                    </div>
+                    <div class="tkn_wrap">
+                      <span class="tkn_txt">sell tax : 0%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- bottom image -->
+        <div class="img_sec">
+          <img src="/images/tkn.png" style="width: 100%" alt="" />
+        </div>
+      </section>
+
+      <!-- marqee section -->
+      <section>
+        <div class="Marquee">
+          <div class="Marquee-content">
+            <div class="mar_wrapper Marquee-tag">
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+              <div class="marqee_inside">
+                <img src="/images/abt.png" style="width: 57px" alt="" />
+
+                <div class="mar_wid">
+                  <span class="marq_txt">$MARUTURO</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Roadmap section -->
+      <section class="rd_sec">
+        <div class="container">
+          <h2 class="ab_ttl htb_ttl">ROADMAP</h2>
+          <div class="seperator2"></div>
+
+          <div class="row first_row space">
+            <div class="col-md-4">
+              <div class="rd_box">
+                <h4>Phase 1</h4>
+                <div class="rd_body">
+                  <ul class="rd_list">
+                    <li>Launch</li>
+                    <li>Website</li>
+                    <li>Social(Telegram,Twitter)</li>
+                    <li>Brand/community development</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 disp">
+              <div class="rd_box">
+                <h4>Phase 1</h4>
+                <div class="rd_body">
+                  <ul class="rd_list">
+                    <li>Launch</li>
+                    <li>Website</li>
+                    <li>Social(Telegram,Twitter)</li>
+                    <li>Brand/community development</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="rd_box">
+                <h4>Phase 2</h4>
+                <div class="rd_body">
+                  <ul class="rd_list">
+                    <li>Launch</li>
+                    <li>Website</li>
+                    <li>Social(Telegram,Twitter)</li>
+                    <li>Brand/community development</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rd_timeline">
+            <img src="/images/tml.svg" class="tml_img" alt="" />
+          </div>
+          <div class="row">
+            <div class="col-md-4 disp">
+              <div class="rd_box"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="rd_box box2" style="background-color: #ffbb02">
+                <h4>Phase 3</h4>
+                <div class="rd_body">
+                  <ul class="rd_list">
+                    <li>Launch</li>
+                    <li>Website</li>
+                    <li>Social(Telegram,Twitter)</li>
+                    <li>Brand/community development</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 disp">
+              <div class="rd_box"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div
+            class="row"
+            style="display: flex; align-items: center; justify-self: center"
+          >
+            <div class="col-md-4">
+              <div class="ft_img">
+                <img src="/images/ft.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="cnt_wrap">
+                <h2>JOIN OUR COMMUNITY</h2>
+                <p class="para" style="padding-top: 20px; padding-bottom: 14px">
+                  Lorem ipsum dolor sit amet consectetur. Volutpat dictum
+                  laoreet eget lacus. Et duis ut mauris congue lobortis blandit
+                  arcu morbi.
+                </p>
+                <!-- button grp -->
+                <div class="btn_wrap">
+                  <a
+                    href="buylink"
+                    target="_blank"
+                    class="buy_btn"
+                    rel="noopener noreferrer"
+                    >BUY $MARUTARO</a
+                  >
+                  <a href="tglink" class="me-3">
+                    <img src="/images/tg.png" alt="telegram" class="scl_img" />
+                  </a>
+                  <a href="twitterlink" class="me-3">
+                    <img src="images/tt.png" alt="Twitter" class="scl_img" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer_bottom"
+        style="background-color: #000; padding: 20px 0"
+      >
+        <div
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <span class="copyright">© 2024 MARUTURO.All right reserved</span>
+        </div>
+      </div>
+    </footer>
 
     <!-- *bootstrap js link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

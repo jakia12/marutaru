@@ -27,22 +27,24 @@ button {
 }
 
 .brand {
-  width: 281px;
+  width: 259px;
   height: 73px;
 }
-
+.social {
+  display: flex;
+}
 .nav-link {
-  font-size: 32px;
+  font-size: 27px;
   font-weight: 400;
   color: #000 !important;
   text-transform: uppercase;
 }
 li.nav-item {
-  padding: 0 7px;
+  padding: 0 5px;
 }
 .scl_img {
-  width: 58px;
-  height: 62px;
+  width: 54px;
+  height: 54px;
 }
 /* hero section */
 .img_box img {
@@ -102,6 +104,11 @@ nav.navbar.navbar-expand-lg {
 
 section.hero {
   padding: 40px 0 0;
+
+  background-image: linear-gradient(#ffbc02cb, #ffbc02), url(/images/ban.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: 1% -14%;
 }
 
 input.ca_txt {
@@ -112,7 +119,7 @@ input.ca_txt {
   font-family: "Gochi Hand", cursive;
 }
 .ca_input {
-  width: 78%;
+  width: 493px;
   height: 65px;
   background: #fff6b5;
   height: 65px;
@@ -277,6 +284,9 @@ button.copy_btn {
 }
 
 /* pin post section */
+.pin_sec{
+ padding: 90px 0; background-color: #fff4d8"
+}
 .pin_wrapper {
   width: 80%;
   margin: 0 auto;
@@ -301,11 +311,7 @@ button.copy_btn {
   text-align: center;
   margin: 0 auto;
 }
-.htb_box {
-  border-radius: 15px;
-  border: 2px solid #000;
-  width: 620px;
-}
+
 .head_sep {
   display: flex;
   align-items: center;
@@ -318,11 +324,7 @@ button.copy_btn {
   justify-content: start;
   gap: 79px;
 }
-.htb_box {
-  border-radius: 15px;
-  border: 2px solid #000;
-  width: 620px;
-}
+
 h3.number {
   padding: 0 24px;
   border-right: 2px solid #000;
@@ -330,7 +332,13 @@ h3.number {
   margin: 0;
   color: #0b7bc5;
 }
-
+.htb_box {
+  border-radius: 15px;
+  border: 2px solid #000;
+  /* width: 560px; */
+  margin-bottom: 67px;
+  /* margin: 27px; */
+}
 .head_sep {
   border-bottom: 2px solid #000;
   padding: 0 12px;
@@ -356,13 +364,271 @@ h3.number {
 .htb_box {
   border-radius: 15px;
   border: 2px solid #000;
-  width: 560px;
+  
   margin-bottom: 67px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: block;
 }
 .space {
   padding-top: 90px;
+  margin-bottom: -67px;
 }
 .htb_wrapper {
   width: 92%;
   margin: 0 auto;
+}
+
+/* tokenomics section */
+.ca_input.tkn_input {
+  margin: 49px auto;
+  width: 42%;
+  background: #fff6b5;
+  /* padding: 40px; */
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tkn_box {
+  /* width: 520px; */
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 0 36px;
+  background: #fff;
+  height:503px
+}
+.ttl_wrap {
+  border-bottom: 2px solid #000;
+  padding: 6px 0;
+}
+.ttl_wrap h3 {
+  font-size: 41px;
+}
+span.tkn_ttl {
+  display: block;
+  font-size: 30px;
+}
+
+.tkn_txt {
+  display: block;
+  font-size: 46px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 7px solid #000;
+  border-left: 2px solid #000;
+  padding: 10px 20px;
+  background-color: #0b7bc5;
+  color: #fff;
+  font-family: "Caesar Dressing", system-ui !important;
+  width: 349px;
+  height: 86px;
+  border-radius: 10px;
+  margin: 0 auto;
+  /* font-size: 61px; */
+  line-height: 55px;
+}
+.tkn_body {
+  padding: 49px 0 40px;
+}
+.tkn_wrap {
+  margin-bottom: 32px;
+}
+span.tkn_ttl {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+
+
+
+.body_cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 461px;
+}
+.img_sec {
+  text-align: center;
+  width: 69%;
+  margin: 0 auto;
+}
+
+/* roadmap section */
+.rd_sec {
+  padding: 90px 0;
+  background-color: #fff4d8;
+  background-image: url(/images/rdbg.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 380px;
+}
+
+.rd_box {
+  border: 3px solid #000;
+  padding: 20px 40px;
+  border-radius: 15px;
+  width: 330px;
+  border-bottom: 17px solid #000;
+  background-color: #fff;
+  height: 294px;
+}
+.box2 {
+  background-color: #ffbb02;
+}
+.tml_img {
+  width: 97%;
+}
+.rd_box h4 {
+  font-size: 38px;
+}
+.rd_list li {
+  font-size: 21px;
+  font-family: "Patrick Hand", cursive;
+}
+.disp {
+  opacity: 0;
+}
+
+/* footer section */
+.copyright {
+  font-size: 18px;
+  font-family: "Patrick Hand", cursive;
+  color: #fff;
+}
+.footer {
+  padding: 70px 0;
+  background-image: url(/images/ftb.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-color: #ffbb02;
+}
+
+.cnt_wrap {
+  text-align: center;
+}
+
+.cnt_wrap h2 {
+  font-size: 77px;
+  margin: 0;
+}
+.hid {
+  display: none;
+}
+.star img {
+  width: 46px;
+}
+.star {
+  text-align: center;
+  margin-bottom: 0;
+}
+/* responsive design */
+@media screen and (max-width: 768px) {
+  .star {
+    text-align: center;
+    margin-bottom: 0;
+    display: none;
+  }
+  .space {
+    padding-top: 90px;
+    margin-bottom: 0;
+  }
+  .pin_sec{
+    padding: 40px 0; background-color: #fff4d8"
+   }
+   .htb_box {
+   
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+.ft_img{
+  text-align: center;
+  margin-bottom:35px
+}
+.htb_txt {
+  font-size: 36px;
+  margin-top: 7px;
+}
+.htb_sec {
+  background-color: #fff6b5;
+  padding: 90px 0 39px;
+}
+
+.ca_input.tkn_input {
+  margin: 49px auto;
+  width: 97%;
+  background: #fff6b5;
+  /* padding: 40px; */
+}
+.tkn_box {
+  width: 100%;
+ 
+  margin:0 0 30px 0
+ 
+  
+}
+   .ab_ttl {
+    font-size: 67px;
+}
+  .img_box img {
+    width: 100%;
+    height: auto;
+    /* height: 767px; */
+  }
+  .buy_btn {
+    width: fit-content;
+    font-size: 25px;
+  }
+  h2.ttl {
+    font-size: 73px;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+  .ca_input {
+    width: 98%;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8px;
+  }
+  .img img {
+    width: 100%;
+    margin-bottom: 23px;
+  }
+  .abt_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px;
+  }
+  .disp {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+  .rd_timeline {
+    display: none;
+  }
+  .hid {
+    display: block;
+  }
+  .rd_box {
+    border: 3px solid #000;
+    padding: 20px 40px;
+    border-radius: 15px;
+    width: 100%;
+    border-bottom: 17px solid #000;
+    background-color: #fff;
+    height: 280px;
+    margin-bottom: 27px;
+  }
+  .social {
+    display: none;
+  }
 }
