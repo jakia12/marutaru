@@ -73,7 +73,7 @@ h2.ttl {
 .buy_btn {
   border-top: 2px solid #000;
   border-right: 2px solid #000;
-  border-bottom: 7px solid #000;
+  border-bottom: 8px solid #000;
   border-left: 2px solid #000;
   padding: 10px 20px;
   background-color: #0b7bc5;
@@ -126,7 +126,7 @@ input.ca_txt {
   border-radius: 10px;
   border-top: 2px solid #000;
   border-right: 2px solid #000;
-  border-bottom: 7px solid #000;
+  border-bottom: 8px solid #000;
   border-left: 2px solid #000;
   margin: 15px 0;
   position: relative;
@@ -141,7 +141,7 @@ button.copy_btn {
   text-align: center;
   border-top: 2px solid #000;
   border-right: 2px solid #000;
-  border-bottom: 7px solid #000;
+  border-bottom: 6px solid #000;
   border-left: 2px solid #000;
   border-radius: 10px;
   position: absolute;
@@ -398,7 +398,7 @@ h3.number {
   margin: 0 36px;
   background: #fff;
   height: 503px;
-  border-bottom: 20px solid #000;
+  border-bottom: 22px solid #000;
 }
 .ttl_wrap {
   border-bottom: 2px solid #000;
@@ -417,7 +417,7 @@ span.tkn_ttl {
   font-size: 46px;
   border-top: 2px solid #000;
   border-right: 2px solid #000;
-  border-bottom: 7px solid #000;
+  border-bottom: 8px solid #000;
   border-left: 2px solid #000;
   padding: 10px 20px;
   background-color: #0b7bc5;
