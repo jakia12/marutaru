@@ -5,6 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Patrick+Hand&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+body,html{
+  overflow-x: hidden!important;
+}
 
 h1,
 h2,
