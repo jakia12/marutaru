@@ -691,6 +691,10 @@ span.tkn_ttl {
 
 
 @media screen and (max-width:420px) {
+  .ca_input {
+    position: relative;
+    width: 98%;
+  }
   section.hero {
     padding: 0px 0 0;
     background-image: linear-gradient(#ffbc02cb, #ffbc02), url(/images/ban.png);
@@ -703,10 +707,7 @@ span.tkn_ttl {
     font-weight: 400;
     margin-bottom: 16px;
 }
-.ca_input {
-  position: relative;
-  width: 83%;
-}
+
 .tkn_txt {
     
   width: 311px;
