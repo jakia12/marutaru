@@ -543,7 +543,7 @@ span.tkn_ttl {
     padding: 40px 0; background-color: #fff4d8"
    }
    .htb_box {
-   
+   height:auto;
     width: 100%;
     margin-right: 0;
     margin-left: 0;
@@ -668,6 +668,10 @@ span.tkn_ttl {
     font-size: 58px;
     font-weight: 400;
     margin-bottom: 16px;
+}
+.ca_input {
+  position: relative;
+  width: 83%;
 }
   
 }
